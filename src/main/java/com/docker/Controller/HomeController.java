@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/home")
     public String homeController(){
-        return "welcome to ";
+        return "welcome to  first docker file ";
     }
 }
