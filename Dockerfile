@@ -6,6 +6,6 @@
 
 FROM eclipse-temurin:22-jdk-alpine
 WORKDIR /app
-COPY target/CRUD-0.0.1-SNAPSHOT.jar CRUD-0.0.1-SNAPSHOT.jar
+COPY target/docker-0.0.1-SNAPSHOT.jar docker-0.0.1-SNAPSHOT.jar
 EXPOSE 5000
-CMD ["java","-jar","CRUD-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","docker-0.0.1-SNAPSHOT.jar"]
